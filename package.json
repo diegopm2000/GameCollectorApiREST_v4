@@ -8,10 +8,8 @@
   "license": "",
   "main": "app.js",
   "dependencies": {
-    "crypto": "^1.0.1",
     "express": "^4.12.3",
     "lodash": "^4.17.4",
-    "log": "^1.4.0",
     "shortid": "^2.2.8",
     "swagger-express-mw": "^0.1.0"
   },
