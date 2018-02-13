@@ -35,7 +35,7 @@ function createVideoGame(params) {
   var result;
   // Comprobamos si existe el gamesystem asociado
   
-  var gamesystemFound = gamesystemService.getGameSystemByName(params.name);
+  var gamesystemFound = gamesystemService.getGameSystemByName(params.gamesystem);
   
   if (!_.isUndefined(gamesystemFound)) {
     
